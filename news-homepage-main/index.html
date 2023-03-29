@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" />
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <title>News homepage</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+      <nav>
+        <div class="logo-and-burger">
+          <img src="assets/images/logo.svg" alt="logo"/>
+          <div class="top-bar-lg">
+            <ul>
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">News</a>
+              </li>
+              <li>
+                <a href="">Popular</a>
+              </li>
+              <li>
+                <a href="">Trending</a>
+              </li>
+              <li>
+                <a href="">Categories</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Move top-bar-lg to here -->
+          <div class="hamburger">
+          <a id="menu-toggle" class="menu-toggle" aria-label="Open the Menu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </a>
+          </div>
+        </div>
+        
+        <div class="top-bar">
+          <div class="close-icon-wrapper">
+            <i class="fa-solid fa-times" aria-hidden="true"></i>
+            <p class="sr-only">Close Sidebar</p>
+          </div>
+          <div class="navlinks-sm">
+            <ul>
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">News</a>
+              </li>
+              <li>
+                <a href="">Popular</a>
+              </li>
+              <li>
+                <a href="">Trending</a>
+              </li>
+              <li>
+                <a href="">Categories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <div class="hero-grid">
+        <div class="image-holder">
+          <img class="puzzle" src="assets/images/image-web-3-mobile.jpg" alt="Picture of interlocked puzzles"/>
+        </div>
+        <section class="intro">
+          <div class="heading">
+            <h1>The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="read-more">
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+              <button type="button">Read more</button>
+          </div>
+        </section>
+        <section class="trending">
+          <div class="text">
+            <h2>New</h2>
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <div class="divider"></div>
+            <h3>The Downsides of AI Artistry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            <div class="divider"></div>
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </section>
+      </div>
+      <section class="newslist">
+        <div class="newsholder">
+          <div class="news-image">
+            <img src="assets/images/image-retro-pcs.jpg" alt="computer components and peripheral devices" />
+          </div>
+          <div class="newstext">
+            <h2>01</h2>
+            <h3>Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="newsholder">
+          <div class="news-image">
+            <img src="assets/images/image-top-laptops.jpg" alt="gaming laptop keyboard keys" />
+          </div>
+          <div class="newstext">
+            <h2>02</h2>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="newsholder">
+          <div class="news-image">
+            <img src="assets/images/image-gaming-growth.jpg" alt="falling playstation controller" />
+          </div>
+          <div class="newstext">
+            <h2>03</h2>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  
+
+</body>
+</html>
